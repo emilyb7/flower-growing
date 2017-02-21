@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="grow-flower.css">
+    <link rel="stylesheet" href="main.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="./index.js"></script>
+    <title>Animate me</title>
+  </head>
+  <body>
+    <div class="container">
+      <p id="inputValue">0</p>
+    </div>
+    <div class="image">
+      <img src="flower-head.svg" alt="flower" id="flower" class="">
+    </div>
+    <input
+      id="input"
+      type="range"
+      name="score"
+      value="0"
+      min="0"
+      max="10"
+      step="1"
+      oninput="delayGrow(this.value)"
+    >
+  </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lavender;
+}
+
+input {
+  width: 400px;
+}
+
+.container {
+  color: purple;
+  height: 200px;
+  width: 400px;
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+  width: 100%;
+}
+
+.image {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}
+
+#flower {
+  height: 0;
+  width: 0;
+}
